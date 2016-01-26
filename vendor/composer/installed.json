@@ -1,0 +1,78 @@
+[
+    {
+        "name": "seostats/seostats",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eyecatchup/SEOstats.git",
+            "reference": "d01ec6e2d92beeb56c1dc9d5edd2ca6b89ae5d65"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eyecatchup/SEOstats/zipball/d01ec6e2d92beeb56c1dc9d5edd2ca6b89ae5d65",
+            "reference": "d01ec6e2d92beeb56c1dc9d5edd2ca6b89ae5d65",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": ">=3.7,<4",
+            "scrutinizer/ocular": "~1",
+            "squizlabs/php_codesniffer": "~1"
+        },
+        "time": "2015-07-13 21:54:47",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.5-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "SEOstats\\": ""
+            },
+            "classmap": [
+                "SEOstats/Services/3rdparty"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Stephan Schmitz",
+                "email": "eyecatchup@gmail.com",
+                "homepage": "https://github.com/eyecatchup",
+                "role": "Creator, Developer, Maintainer"
+            },
+            {
+                "name": "SEOstats Community",
+                "homepage": "https://github.com/eyecatchup/seostats/contributors",
+                "role": "Contributor, Developer"
+            }
+        ],
+        "description": "SEOstats is a powerful open source PHP library to request a bunch of SEO relevant metrics for any website.",
+        "homepage": "http://github.com/eyecatchup/SEOstats",
+        "keywords": [
+            "Alexa",
+            "Backlinks",
+            "Mozscape",
+            "Open Site Explorer",
+            "Pagerank",
+            "SEMRush",
+            "SEO-Stats",
+            "SEOStats",
+            "Sistrix",
+            "google",
+            "seo",
+            "seomoz"
+        ]
+    }
+]
